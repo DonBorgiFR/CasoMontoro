@@ -63,6 +63,7 @@
       "role": "Presidente Equipo Económico. Cerebro de la ingeniería financiera y empresas pantalla.", 
       "cat": "ee", 
       "nuclear": true,
+      "image": "/images/dossier/mrico.png",
       "procedural": {
         "status": "Imputado Clave",
         "details": "Repartió 33M€ vía instrumentales. Orquestó el puente de facturación hacia Global Afteli SL."
@@ -73,6 +74,7 @@
       "name": "Aparato Mediático (Libertad Digital / EsRadio)", 
       "role": "Medios satélite financiados por publicidad institucional (1,7M€) que operan como 'caja de resonancia'.", 
       "cat": "medios", 
+      "image": "/images/dossier/medios.png",
       "procedural": {
         "status": "Receptores / Escudo",
         "details": "Campañas sistemáticas para desprestigiar a jueces no afines e investigadores de corrupción."
@@ -84,6 +86,7 @@
       "role": "Jueces y magistrados beneficiados por el PP que actúan por inercia para archivar o dilatar casos.", 
       "cat": "judicial", 
       "nuclear": true,
+      "image": "/images/dossier/judicial.png",
       "procedural": {
         "status": "Operadores del Sistema",
         "details": "Anulación de escuchas, bloqueos y prescripción forzada de delitos (Lawfare Inverso)."
@@ -94,6 +97,7 @@
       "name": "Lobby Sionista (ACOM / Hispano-Judía)", 
       "role": "Conexión geopolítica. Otorgan legitimidad internacional e intercambian tecnología de vigilancia.", 
       "cat": "global", 
+      "image": "/images/dossier/sionismo.png",
       "procedural": {
         "status": "Aliados Internacionales",
         "details": "Entrega premios Samuel Hadas (Aznar/Aguirre) y Or Janucá (Ayuso) a cambio de fidelidad."
@@ -105,6 +109,7 @@
       "role": "Herederos ideológicos y tácticos del modelo de Aguirre, financiados inicialmente por esta matriz.", 
       "cat": "vox", 
       "nuclear": true,
+      "image": "/images/dossier/vox.png",
       "procedural": {
         "status": "Fuerza de Migración",
         "details": "Absorben cuadros del PP madrileño y operan como contrapeso radical, protegidos por el mismo escudo mediático."
@@ -115,6 +120,7 @@
       "name": "Global Afteli SL", 
       "role": "La Empresa Pantalla. Absorbió el negocio cuando EE SL colapsó a facturación cero.", 
       "cat": "ee", 
+      "image": "/images/dossier/afteli.png",
       "procedural": {
         "status": "Muro de Ocultación",
         "details": "Facturó 4,6 M€ en 2024 operando en la sombra para eludir embargos de la trama original."
@@ -125,6 +131,7 @@
       "name": "Miguel Ferré Navarrete", 
       "role": "Ex-Secretario de Estado de Hacienda. Papel 'decisivo' en favores regulatorios a la patronal.", 
       "cat": "ministerio", 
+      "image": "/images/dossier/ferre.png",
       "procedural": {
         "status": "IMPUTADO (SIN DECLARAR - AÑO 7)",
         "details": "Siete años bajo severa investigación por prevaricación y sobornos sin haber sido llamado a testificar mediante tácticas dilatorias masivas."
@@ -135,6 +142,7 @@
       "name": "Pilar Platero Sanz", 
       "role": "Subsecretaria de Hacienda (2011-2016) y socia de Equipo Económico (2009-2011).", 
       "cat": "ee", 
+      "image": "/images/dossier/platero.png",
       "procedural": {
         "status": "IMPUTADA (SIN DECLARAR - AÑO 7)",
         "details": "Mecanismo de 'puerta giratoria' núcleo; su imputación sigue congelada por la inercia del juzgado."
@@ -146,6 +154,7 @@
       "role": "Ex-Tesorero del PP. Arquitecto técnico de la 'Caja B' y ejecutor de sobresueldos para la cúpula (M. Rajoy).", 
       "cat": "gurtel", 
       "nuclear": true,
+      "image": "/images/dossier/barcenas.png",
       "procedural": {
         "status": "Condenado (Caso Gürtel)",
         "details": "Intentó usar la Amnistía Fiscal inconstitucional de Montoro (2012) para blanquear los 10M€ expoliados en Suiza."
@@ -157,6 +166,7 @@
       "role": "Cerebro logístico de la Trama Gürtel. Diseñó el sistema de corrupción institucional a nivel nacional.", 
       "cat": "gurtel", 
       "nuclear": true,
+      "image": "/images/dossier/correa.png",
       "procedural": {
         "status": "Condenado Múltiple",
         "details": "Su gigantesca red de mordidas sentó las bases de financiación B que derivó en la caída definitiva de M. Rajoy en 2018."
