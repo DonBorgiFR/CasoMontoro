@@ -98,8 +98,15 @@ export default function Home() {
           </div>
           <div className="space-y-8 flex flex-col md:items-end">
             <div className="flex items-center gap-8">
-              {['GITHUB', 'VERCEL', 'TWITTER', 'RSS'].map(link => (
-                <a key={link} href="#" className="text-[10px] font-black text-slate-700 hover:text-red-500 transition-colors tracking-widest uppercase data-mono">{link}</a>
+              {[
+                { name: 'GITHUB', url: 'https://github.com/DonBorgiFR/CasoMontoro' },
+                { name: 'X / TWITTER', url: 'https://twitter.com/intent/tweet?text=Explora%20la%20red%20del%20%23CasoMontoro%3A%20la%20mayor%20trama%20de%20corrupción%20en%20Hacienda.&url=https://github.com/DonBorgiFR/CasoMontoro' },
+                { name: 'TELEGRAM', url: 'https://t.me/share/url?url=https://github.com/DonBorgiFR/CasoMontoro&text=Investigación%20del%20Caso%20Montoro' },
+                { name: 'SUMARIO', url: '#piezas' }
+              ].map(link => (
+                <a key={link.name} href={link.url} target={link.url.startsWith('http') ? '_blank' : '_self'} rel="noreferrer" className="text-[10px] font-black text-slate-700 hover:text-red-500 transition-colors tracking-widest uppercase data-mono">
+                  {link.name}
+                </a>
               ))}
             </div>
             <p className="text-[9px] font-bold text-slate-800 uppercase tracking-tighter data-mono text-right">
