@@ -11,6 +11,7 @@ import MoneyFlow from '@/components/MoneyFlow';
 import Piezas from '@/components/Piezas';
 import Speculation from '@/components/Speculation';
 import ContextSidebar from '@/components/ContextSidebar';
+import ActionCTA from '@/components/ActionCTA';
 import caseData from '@/data/caso-montoro.json';
 
 const NetworkGraph = dynamic(() => import('@/components/NetworkGraph'), { 
@@ -83,6 +84,8 @@ export default function Home() {
 
       </div>
 
+      <ActionCTA />
+      
       <ContextSidebar />
 
       <footer className="bg-black/80 border-t border-white/5 py-32 mt-20 relative overflow-hidden">
