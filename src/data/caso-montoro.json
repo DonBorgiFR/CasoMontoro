@@ -1,19 +1,38 @@
 {
   "case": "Caso Montoro — Conexión Global y El Escudo Estructural",
   "subtitle": "La trama de corrupción en Hacienda, el Lawfare Inverso, el blindaje mediático y la migración a VOX",
-  "description": "Investigación profunda sobre cómo el Equipo Económico fue la punta del iceberg de una estructura mayor: alianzas geopolíticas con el lobby sionista, desvío de capital a medios afines (EsRadio), dilación judicial y empresas pantalla (Global Afteli).",
+  "description": "Investigación profunda sobre cómo el Equipo Económico (EE) fue la punta del iceberg de una estructura mayor: captura legislativa del Estado dictando leyes a medida (Codere, Gasistas), espionaje chantajista a rivales desde la élite de Hacienda (AEAT), desvíos multimillonarios y protección judicial y mediática masiva.",
   "stats": [
-    { "label": "Imputados/Malla", "value": 35, "color": "red" },
-    { "label": "Comisiones Extraídas", "value": 50, "suffix": "M€", "color": "gold" },
-    { "label": "Escudo Mediático", "value": 41, "suffix": "M€", "color": "blue" },
-    { "label": "Empresas Pantalla", "value": 3, "color": "red" }
+    {
+      "label": "Imputados/Malla",
+      "value": 38,
+      "color": "red"
+    },
+    {
+      "label": "Beneficio Trama",
+      "value": 48,
+      "suffix": "M€",
+      "color": "gold"
+    },
+    {
+      "label": "Escudo Mediático",
+      "value": 41,
+      "suffix": "M€",
+      "color": "blue"
+    },
+    {
+      "label": "Hoyo Municipios",
+      "value": 10.5,
+      "suffix": "M€",
+      "color": "red"
+    }
   ],
   "imputados": [
-    { 
-      "id": "montoro", 
-      "name": "Cristóbal Montoro Romero", 
-      "role": "Fundador de Equipo Económico. Ex-Ministro Hacienda. Rol nuclear en la legislación a medida.", 
-      "cat": "ministerio", 
+    {
+      "id": "montoro",
+      "name": "Cristóbal Montoro Romero",
+      "role": "Fundador de Equipo Económico. Ex-Ministro Hacienda. Rol nuclear en la legislación a medida.",
+      "cat": "ministerio",
       "nuclear": true,
       "image": "/images/dossier/montoro.png",
       "procedural": {
@@ -21,11 +40,11 @@
         "details": "Investigado por prevaricación. El proceso sufre extrema dilación ('Lawfare Inverso')."
       }
     },
-    { 
-      "id": "aznar", 
-      "name": "José María Aznar", 
-      "role": "Expresidente. Mentor del bloque. Transferencias oscuras a EE ($35k) y premios sionistas.", 
-      "cat": "aznar", 
+    {
+      "id": "aznar",
+      "name": "José María Aznar",
+      "role": "Expresidente. Mentor del bloque. Transferencias oscuras a EE ($35k) y premios sionistas.",
+      "cat": "aznar",
       "nuclear": true,
       "image": "/images/dossier/aznar.png",
       "procedural": {
@@ -33,11 +52,11 @@
         "details": "Pagos a EE e influencia estructural a través de FAES. Condecorado por Israel."
       }
     },
-    { 
-      "id": "aguirre", 
-      "name": "Esperanza Aguirre", 
-      "role": "Madre política del bloque Madrid. Génesis de la migración ideológica y premio Samuel Hadas.", 
-      "cat": "aguirre", 
+    {
+      "id": "aguirre",
+      "name": "Esperanza Aguirre",
+      "role": "Madre política del bloque Madrid. Génesis de la migración ideológica y premio Samuel Hadas.",
+      "cat": "aguirre",
       "nuclear": true,
       "image": "/images/dossier/aguirre.png",
       "procedural": {
@@ -45,11 +64,11 @@
         "details": "Causas Púnica y Lezo. Escudo judicial parcial y arquitecta del modelo mediático madrileño."
       }
     },
-    { 
-      "id": "ayuso", 
-      "name": "Isabel Díaz Ayuso", 
-      "role": "Heredera del modelo. Inyecta 41M€ en publicidad a medios afines. Nexo actual con Sionismo y ciberseguridad.", 
-      "cat": "aguirre", 
+    {
+      "id": "ayuso",
+      "name": "Isabel Díaz Ayuso",
+      "role": "Heredera del modelo. Inyecta 41M€ en publicidad a medios afines. Nexo actual con Sionismo y ciberseguridad.",
+      "cat": "aguirre",
       "nuclear": true,
       "image": "/images/dossier/ayuso.png",
       "procedural": {
@@ -57,11 +76,11 @@
         "details": "Sin causas directas, opera como gestora del 'Escudo Mediático' y la migración cultural hacia Vox."
       }
     },
-    { 
-      "id": "mrico", 
-      "name": "Ricardo Martínez Rico", 
-      "role": "Presidente Equipo Económico. Cerebro de la ingeniería financiera y empresas pantalla.", 
-      "cat": "ee", 
+    {
+      "id": "mrico",
+      "name": "Ricardo Martínez Rico",
+      "role": "Presidente Equipo Económico. Cerebro de la ingeniería financiera y empresas pantalla.",
+      "cat": "ee",
       "nuclear": true,
       "image": "/images/dossier/mrico.png",
       "procedural": {
@@ -69,22 +88,22 @@
         "details": "Repartió 33M€ vía instrumentales. Orquestó el puente de facturación hacia Global Afteli SL."
       }
     },
-    { 
-      "id": "medios", 
-      "name": "Aparato Mediático (Libertad Digital / EsRadio)", 
-      "role": "Medios satélite financiados por publicidad institucional (1,7M€) que operan como 'caja de resonancia'.", 
-      "cat": "medios", 
+    {
+      "id": "medios",
+      "name": "Aparato Mediático (Libertad Digital / EsRadio)",
+      "role": "Medios satélite financiados por publicidad institucional (1,7M€) que operan como 'caja de resonancia'.",
+      "cat": "medios",
       "image": "/images/dossier/medios.png",
       "procedural": {
         "status": "Receptores / Escudo",
         "details": "Campañas sistemáticas para desprestigiar a jueces no afines e investigadores de corrupción."
       }
     },
-    { 
-      "id": "judicial", 
-      "name": "Cúpula Judicial Afín", 
-      "role": "Jueces y magistrados beneficiados por el PP que actúan por inercia para archivar o dilatar casos.", 
-      "cat": "judicial", 
+    {
+      "id": "judicial",
+      "name": "Cúpula Judicial Afín",
+      "role": "Jueces y magistrados beneficiados por el PP que actúan por inercia para archivar o dilatar casos.",
+      "cat": "judicial",
       "nuclear": true,
       "image": "/images/dossier/judicial.png",
       "procedural": {
@@ -92,22 +111,22 @@
         "details": "Anulación de escuchas, bloqueos y prescripción forzada de delitos (Lawfare Inverso)."
       }
     },
-    { 
-      "id": "sionismo", 
-      "name": "Lobby Sionista (ACOM / Hispano-Judía)", 
-      "role": "Conexión geopolítica. Otorgan legitimidad internacional e intercambian tecnología de vigilancia.", 
-      "cat": "global", 
+    {
+      "id": "sionismo",
+      "name": "Lobby Sionista (ACOM / Hispano-Judía)",
+      "role": "Conexión geopolítica. Otorgan legitimidad internacional e intercambian tecnología de vigilancia.",
+      "cat": "global",
       "image": "/images/dossier/sionismo.png",
       "procedural": {
         "status": "Aliados Internacionales",
         "details": "Entrega premios Samuel Hadas (Aznar/Aguirre) y Or Janucá (Ayuso) a cambio de fidelidad."
       }
     },
-    { 
-      "id": "vox", 
-      "name": "Cúpula VOX (Abascal, Garriga)", 
-      "role": "Herederos ideológicos y tácticos del modelo de Aguirre, financiados inicialmente por esta matriz.", 
-      "cat": "vox", 
+    {
+      "id": "vox",
+      "name": "Cúpula VOX (Abascal, Garriga)",
+      "role": "Herederos ideológicos y tácticos del modelo de Aguirre, financiados inicialmente por esta matriz.",
+      "cat": "vox",
       "nuclear": true,
       "image": "/images/dossier/vox.png",
       "procedural": {
@@ -115,44 +134,44 @@
         "details": "Absorben cuadros del PP madrileño y operan como contrapeso radical, protegidos por el mismo escudo mediático."
       }
     },
-    { 
-      "id": "afteli", 
-      "name": "Global Afteli SL", 
-      "role": "La Empresa Pantalla. Absorbió el negocio cuando EE SL colapsó a facturación cero.", 
-      "cat": "ee", 
+    {
+      "id": "afteli",
+      "name": "Global Afteli SL",
+      "role": "La Empresa Pantalla. Absorbió el negocio cuando EE SL colapsó a facturación cero.",
+      "cat": "ee",
       "image": "/images/dossier/afteli.png",
       "procedural": {
         "status": "Muro de Ocultación",
         "details": "Facturó 4,6 M€ en 2024 operando en la sombra para eludir embargos de la trama original."
       }
     },
-    { 
-      "id": "ferre", 
-      "name": "Miguel Ferré Navarrete", 
-      "role": "Ex-Secretario de Estado de Hacienda. Papel 'decisivo' en favores regulatorios a la patronal.", 
-      "cat": "ministerio", 
+    {
+      "id": "ferre",
+      "name": "Miguel Ferré Navarrete",
+      "role": "Ex-Secretario de Estado de Hacienda. Papel 'decisivo' en favores regulatorios a la patronal.",
+      "cat": "ministerio",
       "image": "/images/dossier/ferre.png",
       "procedural": {
         "status": "IMPUTADO (SIN DECLARAR - AÑO 7)",
         "details": "Siete años bajo severa investigación por prevaricación y sobornos sin haber sido llamado a testificar mediante tácticas dilatorias masivas."
       }
     },
-    { 
-      "id": "platero", 
-      "name": "Pilar Platero Sanz", 
-      "role": "Subsecretaria de Hacienda (2011-2016) y socia de Equipo Económico (2009-2011).", 
-      "cat": "ee", 
+    {
+      "id": "platero",
+      "name": "Pilar Platero Sanz",
+      "role": "Subsecretaria de Hacienda (2011-2016) y socia de Equipo Económico (2009-2011).",
+      "cat": "ee",
       "image": "/images/dossier/platero.png",
       "procedural": {
         "status": "IMPUTADA (SIN DECLARAR - AÑO 7)",
         "details": "Mecanismo de 'puerta giratoria' núcleo; su imputación sigue congelada por la inercia del juzgado."
       }
     },
-    { 
-      "id": "barcenas", 
-      "name": "Luis Bárcenas", 
-      "role": "Ex-Tesorero del PP. Arquitecto técnico de la 'Caja B' y ejecutor de sobresueldos para la cúpula (M. Rajoy).", 
-      "cat": "gurtel", 
+    {
+      "id": "barcenas",
+      "name": "Luis Bárcenas",
+      "role": "Ex-Tesorero del PP. Arquitecto técnico de la 'Caja B' y ejecutor de sobresueldos para la cúpula (M. Rajoy).",
+      "cat": "gurtel",
       "nuclear": true,
       "image": "/images/dossier/barcenas.png",
       "procedural": {
@@ -160,43 +179,190 @@
         "details": "Intentó usar la Amnistía Fiscal inconstitucional de Montoro (2012) para blanquear los 10M€ expoliados en Suiza."
       }
     },
-    { 
-      "id": "correa", 
-      "name": "Francisco Correa", 
-      "role": "Cerebro logístico de la Trama Gürtel. Diseñó el sistema de corrupción institucional a nivel nacional.", 
-      "cat": "gurtel", 
+    {
+      "id": "correa",
+      "name": "Francisco Correa",
+      "role": "Cerebro logístico de la Trama Gürtel. Diseñó el sistema de corrupción institucional a nivel nacional.",
+      "cat": "gurtel",
       "nuclear": true,
       "image": "/images/dossier/correa.png",
       "procedural": {
         "status": "Condenado Múltiple",
         "details": "Su gigantesca red de mordidas sentó las bases de financiación B que derivó en la caída definitiva de M. Rajoy en 2018."
       }
+    },
+    {
+      "id": "guindos",
+      "name": "Luis de Guindos",
+      "role": "Exministro de Economía. Fundó 'Equipo Económico 2004' sorteando incompatibilidades y luego vendió sus participaciones a Montoro opacamente.",
+      "cat": "ministerio",
+      "nuclear": true,
+      "image": "/images/dossier/guindos.png",
+      "procedural": {
+        "status": "Relacionado / Fundador Oculto",
+        "details": "Investigado su papel originario al salir del gobierno de Aznar y la venta de su paquete accionarial a 'precio no razonable'."
+      }
+    },
+    {
+      "id": "catala",
+      "name": "Rafael Catalá",
+      "role": "Exministro de Justicia y exsubsecretario de Hacienda. Intermediario vital con la trama de apuestas (Codere).",
+      "cat": "ministerio",
+      "nuclear": true,
+      "image": "/images/dossier/catala.png",
+      "procedural": {
+        "status": "Implicado en Sumario",
+        "details": "Intercedió corporativamente por Codere. Hacienda multó a su competencia online con 150M€ mientras ellos dictaban leyes."
+      }
+    },
+    {
+      "id": "menendez",
+      "name": "Santiago Menéndez",
+      "role": "Exdirector de la élite antifraude AEAT (ONIF). 'Brazo armado' operativo de la maquinaria de espionaje institucional.",
+      "cat": "ministerio",
+      "nuclear": true,
+      "image": "/images/dossier/menendez.png",
+      "procedural": {
+        "status": "Imputado Estratégico",
+        "details": "Perseguido por cobrar sobornos de EE y filtrar datos fiscales nucleares al Ministerio para extorsionar a detractores."
+      }
     }
   ],
   "gasistas": [
-    { "name": "Air Liquide", "amount": 2500000, "label": "2,5M€" },
-    { "name": "Abello Linde", "amount": 1800000, "label": "1,8M€" },
-    { "name": "Messer", "amount": 1200000, "label": "1,2M€" },
-    { "name": "Praxair", "amount": 900000, "label": "0,9M€" },
-    { "name": "Carburos Metálicos", "amount": 600000, "label": "0,6M€" }
+    {
+      "name": "Air Liquide",
+      "amount": 2500000,
+      "label": "2,5M€"
+    },
+    {
+      "name": "Abello Linde",
+      "amount": 1800000,
+      "label": "1,8M€"
+    },
+    {
+      "name": "Messer",
+      "amount": 1200000,
+      "label": "1,2M€"
+    },
+    {
+      "name": "Praxair",
+      "amount": 900000,
+      "label": "0,9M€"
+    },
+    {
+      "name": "Carburos Metálicos",
+      "amount": 600000,
+      "label": "0,6M€"
+    }
   ],
   "money": [
-    { "name": "Abengoa", "amount": 4900000, "label": "4,9 M€" },
-    { "name": "Escudo Mediático (Ayuso)", "amount": 41500000, "label": "41,5 M€" },
-    { "name": "Global Afteli SL (2024)", "amount": 4600000, "label": "4,6 M€" },
-    { "name": "Libertad Digital / EsRadio", "amount": 1700000, "label": "1,7 M€" }
+    {
+      "name": "Abengoa",
+      "amount": 4900000,
+      "label": "4,9 M€"
+    },
+    {
+      "name": "Escudo Mediático (Ayuso)",
+      "amount": 41500000,
+      "label": "41,5 M€"
+    },
+    {
+      "name": "Global Afteli SL (2024)",
+      "amount": 4600000,
+      "label": "4,6 M€"
+    },
+    {
+      "name": "Libertad Digital / EsRadio",
+      "amount": 1700000,
+      "label": "1,7 M€"
+    },
+    {
+      "name": "Codere (Apuestas Deportivas)",
+      "amount": 679000,
+      "label": "679.000 €"
+    },
+    {
+      "name": "Menoscabo a 5 Ayuntamientos (IAE)",
+      "amount": 10500000,
+      "label": "10,5 M€"
+    },
+    {
+      "name": "Beneficio de Expoliación EE (2008-2017)",
+      "amount": 48000000,
+      "label": "48,0 M€"
+    },
+    {
+      "name": "Pérdidas Nacionales Sector Energía",
+      "amount": 59000000,
+      "label": "59,0 M€"
+    }
   ],
   "timeline": [
-    { "year": "1989-1999", "title": "Génesis de la Caja B", "description": "Comienza el funcionamiento estructurado de la 'Caja B' del Partido Popular, operada por Tesoreros (Bárcenas) alimentada de mordidas a cambio de adjudicaciones." },
-    { "year": "2000-2004", "title": "Génesis del Equipo Económico", "description": "Montoro ejerce de Ministro bajo Aznar. Se forja el núcleo ideológico de la futura red de consultoría y favores." },
-    { "year": "2006", "title": "Nace la Hidra (Equipo Económico)", "description": "Montoro sale del gobierno y funda el despacho privado, nutriéndolo directamente de ex-altos cargos de Hacienda." },
-    { "year": "2012", "title": "Amnistía Fiscal de Montoro", "description": "Decreto ley para legalización de rentas opacas y fraude constitucional; Luis Bárcenas intentó acogerse febrilmente para blanquear 10M€ ocultos en Suiza." },
-    { "year": "2012", "title": "El Pacto con Israel", "description": "Aznar y Aguirre reciben el premio 'Samuel Hadas'. Comienza la alineación con la ciberseguridad y el lobby sionista." },
-    { "year": "2013-2015", "title": "La Máquina del Fango (Hacienda)", "description": "Múltiples filtraciones sistemáticas de expedientes fiscales a medios afines, utilizando las instituciones del Estado contra rivales o para disciplinar a disidentes (Aguirre, Rodrigo Rato)." },
-    { "year": "2018", "title": "Sentencia Gürtel y Caída de M. Rajoy", "description": "La Audiencia Nacional certifica la existencia de la red de sobornos y la caja B. La posterior Moción de Censura expulsa de forma histórica a M. Rajoy, colapsando la red gubernamental." },
-    { "year": "2018", "title": "El Muro de Ocultación (Global Afteli)", "description": "Tras la investigación de Fiscalía al 'Montorato', Equipo Económico (EE SL) factura 0€ y desvía secretamente toda la cartera de negocios a Global Afteli SL." },
-    { "year": "2023-2024", "title": "Publicidad y El Escudo Mediático", "description": "El bloque de Ayuso inyecta masivamente más de 41 millones en publicidad a medios satélite (EsRadio) para aislar investigaciones e intoxicar a jueces y oposición." },
-    { "year": "2025-2026", "title": "Imputados Intocables y Premios", "description": "Ayuso es galardonada por ACOM (Or Janucá). Paralelamente, la Justicia mantiene durante más de 7 años a casi 30 altos cargos del caso Montoro sin nisiquiera llamarles a declarar." }
+    {
+      "year": "1989-1999",
+      "title": "Génesis de la Caja B",
+      "description": "Comienza el funcionamiento estructurado de la 'Caja B' del Partido Popular, operada por Tesoreros (Bárcenas) alimentada de mordidas a cambio de adjudicaciones."
+    },
+    {
+      "year": "2000-2004",
+      "title": "Génesis del Equipo Económico",
+      "description": "Montoro ejerce de Ministro bajo Aznar. Se forja el núcleo ideológico de la futura red de consultoría y favores."
+    },
+    {
+      "year": "2006",
+      "title": "Nace la Hidra (Equipo Económico)",
+      "description": "Montoro sale del gobierno y funda el despacho privado, nutriéndolo directamente de ex-altos cargos de Hacienda."
+    },
+    {
+      "year": "2012",
+      "title": "Amnistía Fiscal de Montoro",
+      "description": "Decreto ley para legalización de rentas opacas y fraude constitucional; Luis Bárcenas intentó acogerse febrilmente para blanquear 10M€ ocultos en Suiza."
+    },
+    {
+      "year": "2012",
+      "title": "El Pacto con Israel",
+      "description": "Aznar y Aguirre reciben el premio 'Samuel Hadas'. Comienza la alineación con la ciberseguridad y el lobby sionista."
+    },
+    {
+      "year": "2013-2015",
+      "title": "La Máquina del Fango (Hacienda)",
+      "description": "Múltiples filtraciones sistemáticas de expedientes fiscales a medios afines, utilizando las instituciones del Estado contra rivales o para disciplinar a disidentes (Aguirre, Rodrigo Rato)."
+    },
+    {
+      "year": "2018",
+      "title": "Sentencia Gürtel y Caída de M. Rajoy",
+      "description": "La Audiencia Nacional certifica la existencia de la red de sobornos y la caja B. La posterior Moción de Censura expulsa de forma histórica a M. Rajoy, colapsando la red gubernamental."
+    },
+    {
+      "year": "2018",
+      "title": "El Muro de Ocultación (Global Afteli)",
+      "description": "Tras la investigación de Fiscalía al 'Montorato', Equipo Económico (EE SL) factura 0€ y desvía secretamente toda la cartera de negocios a Global Afteli SL."
+    },
+    {
+      "year": "2023-2024",
+      "title": "Publicidad y El Escudo Mediático",
+      "description": "El bloque de Ayuso inyecta masivamente más de 41 millones en publicidad a medios satélite (EsRadio) para aislar investigaciones e intoxicar a jueces y oposición."
+    },
+    {
+      "year": "2025-2026",
+      "title": "Imputados Intocables y Premios",
+      "description": "Ayuso es galardonada por ACOM (Or Janucá). Paralelamente, la Justicia mantiene durante más de 7 años a casi 30 altos cargos del caso Montoro sin nisiquiera llamarles a declarar."
+    },
+    {
+      "year": "Jul 2025",
+      "title": "Imputación Formal Masiva (UCO)",
+      "description": "Tras la apertura de los correos encriptados, se imputa a Montoro, a 27 altos cargos ministeriales y a 6 gigantes corporativos (Codere, Air Liquide...). Montoro es forzado a romper su carnet del PP."
+    },
+    {
+      "year": "Ene 2026",
+      "title": "Cápsula de Tiempo Patrimonial",
+      "description": "El Juez prorroga la instrucción hasta el verano de 2026 e instruye a la Justicia para registrar y auditar céntimo a céntimo las propiedades embargables de los ministeriales y sus subalternos."
+    },
+    {
+      "year": "Mar 2026",
+      "title": "El Escrito de 'Fabulación'",
+      "description": "Hace días, un Montoro sitiado judicialmente presenta un dardo legal acusando a la Fiscalía Anticorrupción de diseñar puramente un montaje y denuncia una 'falta absoluta de indicios'."
+    }
   ],
   "theories": [
     {
@@ -226,46 +392,276 @@
       "desc": "La inyección brutal de capital público (publicidad institucional) en medios afines persigue crear un sub-universo de información que protege a Ayuso y cultiva/exporta el modelo ultra-liberal hacia la cúpula de VOX.",
       "level": "FACTUAL",
       "evidence": "41,5M€ de publicidad en 2 años; 1,7M€ exclusivos para el grupo de Jiménez Losantos. Flujo de cuadros entre el entorno Aguirre y Abascal."
+    },
+    {
+      "id": "teoria-espionaje",
+      "title": "Hackeo del Estado: La AEAT como Arma de Destrucción",
+      "desc": "Este es uno de los descubrimientos más graves: el Gabinete de Montoro utilizaba presuntamente a la inteligencia fiscal (ONIF) comandada por Santiago Menéndez para hackear impunemente los historiales financieros de periodistas críticos (ABC) y asfixiar fiscales y rivales en la sombra ('Lawfare Extorsivo').",
+      "level": "MUY ALTA PROBABILIDAD",
+      "evidence": "Imputación formal del exjefe S. Menéndez. Evidencia pericial de la UCO documentando envíos de historiales financieros secretos."
+    },
+    {
+      "id": "teoria-privatizacion",
+      "title": "El BOE Subastado (Poder Legislativo Privado)",
+      "desc": "El último nivel de la corrupción: las casas de apuestas (Codere) y gigantes gasistas no solo compraban favores, sino que dictaban párrafos de Leyes Nacionales desde sus despachos antes de que el borrador llegara al Congreso.",
+      "level": "FACTUAL",
+      "evidence": "Las fechas de cruce de correos descifrados prueban que las comas y textos técnicos exigidos por el despacho de Montoro se calcaron literalmente en el BOE (Ley del IVA)."
     }
   ],
   "graph": {
     "nodes": [
-      { "id": "montoro", "label": "Montoro", "group": "ministerio", "r": 30 },
-      { "id": "aznar", "label": "Aznar", "group": "aznar", "r": 30 },
-      { "id": "aguirre", "label": "Aguirre", "group": "aguirre", "r": 25 },
-      { "id": "ayuso", "label": "Ayuso", "group": "aguirre", "r": 35 },
-      { "id": "ee", "label": "Equipo Económico", "group": "ee", "r": 25 },
-      { "id": "afteli", "label": "Global Afteli", "group": "ee", "r": 20 },
-      { "id": "israel", "label": "Israel / Sionismo", "group": "global", "r": 28 },
-      { "id": "vox", "label": "Bloque VOX", "group": "vox", "r": 28 },
-      { "id": "judicial", "label": "Cúpula Judicial Afín", "group": "judicial", "r": 22 },
-      { "id": "medios", "label": "Escudo Mediático", "group": "medios", "r": 25 },
-      { "id": "ferre", "label": "Miguel Ferré", "group": "ministerio", "r": 20 },
-      { "id": "platero", "label": "Pilar Platero", "group": "ee", "r": 18 },
-      { "id": "barcenas", "label": "Luis Bárcenas", "group": "gurtel", "r": 25 },
-      { "id": "correa", "label": "Francisco Correa", "group": "gurtel", "r": 28 }
+      {
+        "id": "montoro",
+        "label": "Montoro",
+        "group": "ministerio",
+        "r": 30
+      },
+      {
+        "id": "aznar",
+        "label": "Aznar",
+        "group": "aznar",
+        "r": 30
+      },
+      {
+        "id": "aguirre",
+        "label": "Aguirre",
+        "group": "aguirre",
+        "r": 25
+      },
+      {
+        "id": "ayuso",
+        "label": "Ayuso",
+        "group": "aguirre",
+        "r": 35
+      },
+      {
+        "id": "ee",
+        "label": "Equipo Económico",
+        "group": "ee",
+        "r": 25
+      },
+      {
+        "id": "afteli",
+        "label": "Global Afteli",
+        "group": "ee",
+        "r": 20
+      },
+      {
+        "id": "israel",
+        "label": "Israel / Sionismo",
+        "group": "global",
+        "r": 28
+      },
+      {
+        "id": "vox",
+        "label": "Bloque VOX",
+        "group": "vox",
+        "r": 28
+      },
+      {
+        "id": "judicial",
+        "label": "Cúpula Judicial Afín",
+        "group": "judicial",
+        "r": 22
+      },
+      {
+        "id": "medios",
+        "label": "Escudo Mediático",
+        "group": "medios",
+        "r": 25
+      },
+      {
+        "id": "ferre",
+        "label": "Miguel Ferré",
+        "group": "ministerio",
+        "r": 20
+      },
+      {
+        "id": "platero",
+        "label": "Pilar Platero",
+        "group": "ee",
+        "r": 18
+      },
+      {
+        "id": "barcenas",
+        "label": "Luis Bárcenas",
+        "group": "gurtel",
+        "r": 25
+      },
+      {
+        "id": "correa",
+        "label": "Francisco Correa",
+        "group": "gurtel",
+        "r": 28
+      },
+      {
+        "id": "guindos",
+        "label": "Guindos",
+        "group": "ministerio",
+        "r": 25
+      },
+      {
+        "id": "catala",
+        "label": "R. Catalá",
+        "group": "ministerio",
+        "r": 25
+      },
+      {
+        "id": "menendez",
+        "label": "S. Menéndez\n(ONIF)",
+        "group": "ministerio",
+        "r": 22
+      },
+      {
+        "id": "codere",
+        "label": "Codere",
+        "group": "ee",
+        "r": 20
+      }
     ],
     "links": [
-      { "source": "aznar", "target": "montoro", "label": "Génesis / Mentor", "money": true },
-      { "source": "aznar", "target": "israel", "label": "Premio S. Hadas / FAES" },
-      { "source": "ayuso", "target": "israel", "label": "Premio Or Janucá" },
-      { "source": "aguirre", "target": "ayuso", "label": "Sucesión / Doctrina" },
-      { "source": "aguirre", "target": "vox", "label": "Origen ideológico" },
-      { "source": "ayuso", "target": "medios", "label": "Financiador 41M€", "money": true },
-      { "source": "medios", "target": "vox", "label": "Defensa Activa" },
-      { "source": "medios", "target": "judicial", "label": "Presión / Cobertura" },
-      { "source": "montoro", "target": "ee", "label": "Fundador" },
-      { "source": "ee", "target": "afteli", "label": "Empresa Pantalla", "money": true },
-      { "source": "ayuso", "target": "vox", "label": "Migración / Alianza" },
-      { "source": "aznar", "target": "ee", "label": "Cliente $35k" },
-      { "source": "judicial", "target": "montoro", "label": "Dilación / Lawfare" },
-      { "source": "judicial", "target": "aguirre", "label": "Dilación / Archivos" },
-      { "source": "barcenas", "target": "montoro", "label": "Intento Amnistía", "money": true },
-      { "source": "barcenas", "target": "aznar", "label": "Sobresueldos B", "money": true },
-      { "source": "correa", "target": "aznar", "label": "Sobornos", "money": true },
-      { "source": "correa", "target": "aguirre", "label": "Púnica/Gürtel" },
-      { "source": "montoro", "target": "ferre", "label": "Nombramiento" },
-      { "source": "ee", "target": "platero", "label": "Captación" }
+      {
+        "source": "aznar",
+        "target": "montoro",
+        "label": "Génesis / Mentor",
+        "money": true
+      },
+      {
+        "source": "aznar",
+        "target": "israel",
+        "label": "Premio S. Hadas / FAES"
+      },
+      {
+        "source": "ayuso",
+        "target": "israel",
+        "label": "Premio Or Janucá"
+      },
+      {
+        "source": "aguirre",
+        "target": "ayuso",
+        "label": "Sucesión / Doctrina"
+      },
+      {
+        "source": "aguirre",
+        "target": "vox",
+        "label": "Origen ideológico"
+      },
+      {
+        "source": "ayuso",
+        "target": "medios",
+        "label": "Financiador 41M€",
+        "money": true
+      },
+      {
+        "source": "medios",
+        "target": "vox",
+        "label": "Defensa Activa"
+      },
+      {
+        "source": "medios",
+        "target": "judicial",
+        "label": "Presión / Cobertura"
+      },
+      {
+        "source": "montoro",
+        "target": "ee",
+        "label": "Fundador"
+      },
+      {
+        "source": "ee",
+        "target": "afteli",
+        "label": "Empresa Pantalla",
+        "money": true
+      },
+      {
+        "source": "ayuso",
+        "target": "vox",
+        "label": "Migración / Alianza"
+      },
+      {
+        "source": "aznar",
+        "target": "ee",
+        "label": "Cliente $35k"
+      },
+      {
+        "source": "judicial",
+        "target": "montoro",
+        "label": "Dilación / Lawfare"
+      },
+      {
+        "source": "judicial",
+        "target": "aguirre",
+        "label": "Dilación / Archivos"
+      },
+      {
+        "source": "barcenas",
+        "target": "montoro",
+        "label": "Intento Amnistía",
+        "money": true
+      },
+      {
+        "source": "barcenas",
+        "target": "aznar",
+        "label": "Sobresueldos B",
+        "money": true
+      },
+      {
+        "source": "correa",
+        "target": "aznar",
+        "label": "Sobornos",
+        "money": true
+      },
+      {
+        "source": "correa",
+        "target": "aguirre",
+        "label": "Púnica/Gürtel"
+      },
+      {
+        "source": "montoro",
+        "target": "ferre",
+        "label": "Nombramiento"
+      },
+      {
+        "source": "ee",
+        "target": "platero",
+        "label": "Captación"
+      },
+      {
+        "source": "aznar",
+        "target": "guindos",
+        "label": "Auspicio 2004",
+        "money": false
+      },
+      {
+        "source": "guindos",
+        "target": "ee",
+        "label": "Génesis Oculta",
+        "money": true
+      },
+      {
+        "source": "catala",
+        "target": "codere",
+        "label": "Lobby/Ex-Consejero",
+        "money": true
+      },
+      {
+        "source": "codere",
+        "target": "ee",
+        "label": "679k€ / Ley a Medida",
+        "money": true
+      },
+      {
+        "source": "montoro",
+        "target": "menendez",
+        "label": "Órdenes Extorsión",
+        "money": false
+      },
+      {
+        "source": "menendez",
+        "target": "medios",
+        "label": "Filtración Dossiers",
+        "money": false
+      }
     ]
   }
 }
